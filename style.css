@@ -296,6 +296,33 @@ nav img a:hover {
   background-color: none;
   color: none;
 }
+
+
+/*Button styling*/
+button {
+  width: 130px;
+  background-color: #450908;
+  color: #fff;
+  border-radius: 25%;
+  height: 30px;
+  position: relative;
+  margin-left: calc(50% - 65px);
+  z-index: 1000;
+  animation: buttonOpacity 5s forwards;
+}
+
+@keyframes buttonOpacity {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Media query */
 @media only screen and (min-width: 30em) {
   /* Navigation */
